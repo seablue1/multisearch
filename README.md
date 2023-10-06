@@ -1,4 +1,4 @@
-用于支持页面内搜索多个字符串，安装插件后打开页面按ctrl+q（可在插件快捷键页面配置）可见输入框
+用于支持页面内搜索多个字符串，安装插件后打开页面按ctrl+q（可在插件快捷键页面配置，默认ctrl+q，如果ctrl+q被占用，需要配置一下 [chrome](chrome://extensions/shortcuts) or [edge](edge://extensions/shortcuts)）可见输入框
 
 feature：
 
