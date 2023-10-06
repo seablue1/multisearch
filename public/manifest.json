@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Multisearch",
+  "version": "0.1.0",
+  "description": "My Chrome Extension",
+  "icons": {
+    "16": "icons/icon_32.png",
+    "32": "icons/icon_32.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Multisearch"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "contentScript.js"
+      ],
+      "css": [
+        "contentScript.css"
+      ]
+    }
+  ],
+  "commands": {
+    "showPanel": {
+      "description": "打开搜索框",
+      "suggested_key": "Ctrl+Q"
+    }
+  }
+}
