@@ -9,3 +9,7 @@ feature：
 * 上一个，下一个，当前位置
 
 ![](readme.pic/1.jpg)
+
+reference：
+* [PowerMarker](https://github.com/ATUFO/PowerMarker)
+* [markjs](https://markjs.io/)
